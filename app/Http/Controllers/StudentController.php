@@ -22,7 +22,7 @@ Class StudentController extends Controller {
             'lastname' => 'required | max:50 | alpha_num',
             'firstname'=> 'required | max:50 | alpha_num',
             'middlename' => 'required | max:50 | alpha_num',
-            'age' => 'required | lt:50'
+            'age' => 'required | lte:50'
 
         ];
 
